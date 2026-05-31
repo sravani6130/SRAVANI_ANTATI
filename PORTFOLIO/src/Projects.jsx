@@ -17,6 +17,46 @@ const projectsData = [
       'Developed a distributed Network File System (NFS) in C using a multi-tier architecture comprising Clients, Naming Server, and Storage Servers, enabling remote file operations including create, delete, copy, read, write, and directory management through TCP socket communication.',
       'Engineered efficient metadata management with Trie-based path indexing and LRU caching for fast file discovery and request routing; supported dynamic storage server registration, fault handling, and scalable access across multiple storage servers.'
     ]
+  },
+  {
+    title: 'Full-Stack Marketplace Platform (React.js, Node.js, Express.js, MongoDB, JWT, REST APIs)',
+    github: 'https://github.com/sravani6130/BUYSELL-IIITH',
+    points: [
+      'Developed a full-stack e-commerce marketplace using React.js, Node.js, Express.js, and MongoDB, enabling user authentication, profile management, product listings, category-based search, and buyer-seller interactions through RESTful APIs.',
+      'Implemented secure backend services with JWT authentication, BCrypt password hashing, cart and order management workflows, and OTP-based delivery verification, ensuring reliable and scalable transaction processing.'
+    ]
+  },
+  {
+    title: 'Transformer-Based Code Translation System (CodeT5, Transformers, PyTorch, CodeBLEU, NLP)',
+    github: '#',
+    points: [
+      'Fine-tuned the CodeT5 (Salesforce/codet5-small) transformer model for automated Python-to-C++ code translation using PyTorch and Hugging Face Transformers, implementing custom preprocessing, tokenization pipelines, dataset augmentation, and sequence-to-sequence training workflows.',
+      'Designed a comprehensive evaluation framework leveraging BLEU, ROUGE-L, Exact Match, and CodeBLEU metrics, and developed attention-based model interpretability visualizations to analyze translation quality, improve model performance, and validate generated C++ code outputs.'
+    ]
+  },
+  {
+    title: 'Polymind AI: Multi-Agent Reasoning System (LLMs, Agent Systems, MCP, Tool Integration, AI Agents)',
+    github: 'https://github.com/sravani6130/PROJECTS/tree/main/NLP/PROJECTS/PolyMind-Multi_Agent_Study_Assistant',
+    points: [
+      'Built a terminal-based multi-agent reasoning system featuring specialized Coding, Math, and General AI agents, integrating MCP-powered tools for code execution, mathematical computation, web scraping, and context-aware information retrieval.',
+      'Designed and implemented an autonomous reasoning pipeline with query preprocessing, intelligent tool orchestration, and response post-processing, enabling dynamic tool invocation and consistent high-quality AI-generated outputs.'
+    ]
+  },
+  {
+    title: 'C-Shell: Linux Process and I/O Management System',
+    github: 'https://github.com/sravani6130/Simple-C-Shell',
+    points: [
+      'Developed a Unix-like command-line shell in C supporting custom built-in commands, command history, background/foreground process execution, and directory navigation, leveraging Linux system calls such as fork(), execvp(), waitpid(), and chdir().',
+      'Implemented advanced shell functionalities including I/O redirection, command piping, process management, signal handling (SIGINT, SIGTSTP, SIGCHLD), and /proc-based process inspection, enabling efficient execution and monitoring of concurrent processes in a Linux environment.'
+    ]
+  },
+  {
+    title: 'GeoLens: Multi-Task Visual Geolocation and Scene Understanding System (Computer Vision, Deep Learning, ConvNeXt)',
+    github: 'https://github.com/sravani6130/Geolens',
+    points: [
+      'Developed a multi-task computer vision system capable of predicting image geographic coordinates (latitude/longitude), camera orientation (0–360°), and scene region classification directly from visual content using ConvNeXt-based deep learning architectures and transfer learning.',
+      'Engineered specialized learning pipelines including GPS coordinate regression, angle prediction via sine-cosine encoding with custom loss functions, and class-imbalance-aware scene classification using weighted sampling and weighted cross-entropy, improving model robustness and generalization across diverse environments.'
+    ]
   }
 ];
 

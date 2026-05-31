@@ -6,8 +6,8 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
+import Experience from './Experience';
 import Education from './Education';
-import Resume from './Resume';
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/education" element={<Education />} />
-          <Route path="/resume" element={<Resume />} />
         </Routes>
       </div>
     </HashRouter>
